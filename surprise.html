@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827"><title>Pour toi — Entre nous</title>
+  <link rel="stylesheet" href="css/style.css"><script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span> ENTRE NOUS</a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a><a href="histoire.html">Notre histoire</a><a href="coeur.html">Ce que j'ai sur le cœur</a><a class="active" href="surprise.html">Pour toi</a><a href="suite.html">La suite</a>
+    </nav>
+  </header>
+  <main class="page-main surprise-main">
+    <section class="page-heading">
+      <div class="section-eyebrow">04 — UNE PETITE ATTENTION</div>
+      <h1>J'ai gardé<br><em>un mot pour toi.</em></h1>
+      <p>Il suffit d'ouvrir l'enveloppe. Prends ton temps.</p>
+    </section>
+    <section class="envelope-stage">
+      <button class="envelope-button" id="open-letter" aria-label="Ouvrir l'enveloppe">
+        <span class="envelope-glow"></span>
+        <span class="envelope">
+          <span class="envelope-back"></span><span class="envelope-paper"><span>Pour Malissia</span><b>✦</b></span>
+          <span class="envelope-front"></span><span class="envelope-flap"></span>
+        </span>
+        <span class="envelope-hint">TOUCHE POUR OUVRIR</span>
+      </button>
+      <div class="surprise-message" id="surprise-message" hidden aria-live="polite">
+        <span class="message-star">✦</span>
+        <p>Je voulais juste te rappeler que tu as de l'importance à mes yeux. J'espère que tu n'en douteras pas, même les jours où je trouve moins facilement les mots.</p>
+        <span class="message-end">— Un mot, tout simplement.</span>
+        <button class="text-button" id="close-message">Refermer doucement</button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✦</span> ENTRE NOUS</a><span>Un espace créé avec sincérité.</span><span class="footer-year">2026</span></footer>
+</body>
+</html>
